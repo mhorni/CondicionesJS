@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java Condiciones</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <main>
+    <div>
+      <h1>STICKES DE TUS AMIGOS FAVORITOS</h1>
+    </div>
+
+    <main class="productos">
+      <div class="card" onclick="toggleBorder(this)">
+        <div>
+          <img src="./assets/img/gatolunar.jfif" alt="Producto1" />
+        </div>
+
+        <h2>GATO EN LUNA</h2>
+
+
+        <input type="number" min="1" max="10" id="contador1">
+
+
+
+      </div>
+
+      <div class="card" onclick="toggleBorder(this)">
+        <div>
+          <img src="./assets/img/gatoprogramador.jpg" alt="Producto2" />
+        </div>
+
+
+        <h2>GATO PROGRAMADOR</h2>
+
+
+        <input type="number" min="1" max="10" id="contador2">
+      </div>
+
+      <div class="card" onclick="toggleBorder(this)">
+        <div>
+          <img src="./assets/img/gatolimpio.jpg" alt="Producto3" />
+        </div>
+
+        <h2>GATO LAVADO</h2>
+
+
+
+        <input type="number" min="1" max="10" id="contador3">
+      </div>
+
+
+
+
+    </main>
+
+    <div class="contadores">
+      <div class="totaljs">
+        <p id="total_contadores"></p>
+        <button id="total">Validar Cantidad</button>
+
+      </div>
+    </div>
+
+
+    <script src="./assets/js/app.js"></script>
+
+
+    <div class="pages">
+      <a href="./index.html">Anterior</a>
+      <a href="./index3.html">Siguiente</a>
+
+    </div>
+
+
+
+</body>
+
+</html>
